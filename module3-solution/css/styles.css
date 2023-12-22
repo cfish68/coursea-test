@@ -1,0 +1,61 @@
+
+
+/** HEADER **/
+ #header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 5px solid black;
+    height: 200px;
+    color: black;
+    
+}
+.navbar-brand {
+    float: left;
+}
+.navbar-brand h1 {
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 2;
+    left: 50px;
+}
+.navbar-default .navbar-toggle {
+    border: 3px solid black;
+}
+.icon-bar {
+    border: 2px solid black;
+}
+li {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+#nav-list {
+    border: 2px solid black;
+}
+.black-line {
+    background-color: black;
+    color: black;
+}
+
+
+
+/**TILES**/
+#tile-header {
+    text-align: center;
+    font-size: large; 
+}
+
+.category-tile{
+    width: 100%;
+    background-color: lightblue;
+
+}
+
+
+@media (min-width: 768px) {
+    .hidden-md {
+        display: none;
+    }
+}
