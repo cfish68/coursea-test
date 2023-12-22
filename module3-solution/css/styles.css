@@ -42,15 +42,26 @@ li {
 
 
 /**TILES**/
+
+#our-menu {
+    font-size: 4em;
+}
 #tile-header {
     text-align: center;
-    font-size: large; 
+    font-size: 3em; 
 }
 
 .category-tile{
     width: 100%;
     background-color: lightblue;
 
+}
+.category-tile>p {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: medium;
 }
 
 
