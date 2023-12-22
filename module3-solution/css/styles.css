@@ -70,3 +70,6 @@ li {
         display: none;
     }
 }
+.container {
+    width: 95%;
+}
